@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title>POST A JOB</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class='container'>
+            <h1>Post a New Job!<h1>
+                <form action="jobBoard.php">
+                    <label for="title">Enter the title of the job</label>
+                    <div class="form-group">
+                        <input id="title" name="title" class="form-control" type="text"/>
+                    </div>
+                    <label for="description">Job Description</label>
+                    <div class="form-group">
+                        <input id="description" name="description" class="form-control" type="text"/>
+                    </div>
+                    <label for="contact_info">Contact Information</label>
+                    <div class="form-group">
+                        <input id="contact_info" name="contact_info" class="form-control" type="text"/>
+                    </div>
+
+                    <button type="submit" class="btn-success">Submit</button>
+                </form>
+        </div>
+    </body>
+</html>
